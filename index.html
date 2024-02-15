@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Hide Password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="reset-password.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <input id="pass" type="password" placeholder="password">
+        <span id="fakepass">Password</span>
+        <button id="reveal" disabled="disabled"><span></span></button>
+
+        <audio id="onShow">
+            <source src="1.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
